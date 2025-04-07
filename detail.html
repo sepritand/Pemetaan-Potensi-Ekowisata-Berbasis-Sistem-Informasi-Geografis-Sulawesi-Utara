@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Detail Ekowisata</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Detail Lokasi Ekowisata</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="about.html">Tentang</a>
+  </nav>
+
+  <div class="container" id="detail-container">
+    <p>Memuat detail lokasi...</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 - Pemetaan Ekowisata Sulut | SIG Project</p>
+  </footer>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const id = parseInt(params.get('id')); // Pastikan ID berupa angka
+
+    fetch('data/ekowisata.json')
+      .then(response => response.json())
+      .then(data => {
+        const lokasi = data.find(item => item.id === id);
+        const container = document.getElementById('detail-container');
+
+        if (!lokasi) {
+          container.innerHTML = '<p>Data tidak ditemukan.</p>';
+          return;
+        }
+
+        container.innerHTML = `
+          <div class="card">
+            <h2>${lokasi.nama}</h2>
+            <img 
+              src="images/${lokasi.gambar}" 
+              alt="${lokasi.nama}" 
+              onerror="this.onerror=null; this.src='images/default.jpg';" 
+              style="width: 100%; max-width: 500px; height: auto; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);"
+            />
+            <p><strong>Lokasi:</strong> ${lokasi.lokasi}</p>
+            <p><strong>Potensi Ekowisata:</strong> ${lokasi.potensi?.join(", ") ?? '-'}</p>
+            <p><strong>Pemilik:</strong> ${lokasi.pemilik}</p>
+            <a href="index.html" class="btn">← Kembali ke Peta</a>
+          </div>
+        `;
+      })
+      .catch(err => {
+        document.getElementById('detail-container').innerHTML = '<p>Gagal memuat data.</p>';
+        console.error('Error saat mengambil data detail:', err);
+      });
+  </script>
+
+</body>
+</html>

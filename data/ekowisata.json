@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "nama": "Bukit Kasih Kanonang",
+    "lokasi": "Kanonang Empat, Kecamatan Kawangkoan, Kabupaten Minahasa, Sulawesi Utara",
+    "latitude": 1.1653048,
+    "longitude": 124.7659903,
+    "potensi": ["Bukit belerang dengan kolam belerang aktif, simbol kerukunan antar umat beragama, cocok untuk meditasi dan wisata."],
+    "gambar": "BukitKasih.jpg",
+    "pemilik": "Dinas Pariwisata Minahasa",
+    "gmaps": "https://maps.app.goo.gl/rKKKDARhJAREDu8Q7"
+  },
+  {
+    "id": 2,
+    "nama": "Air Terjun Tunan Talawaan",
+    "lokasi": "Wasian, Kecamatan Dimembe, Minahasa Utara, Sulawesi Utara",
+    "latitude": 1.5682660,
+    "longitude": 124.9728939,
+    "potensi": ["Air terjun alami dengan hutan sekitar yang asri, cocok untuk trekking dan menikmati keindahan alam."],
+    "gambar": "Talawaan.jpeg",
+    "pemilik": "Dinas Pariwisata Minahasa",
+    "gmaps": "https://maps.app.goo.gl/FvQtq4TJ1FmVPJHK6"
+  },
+  {
+    "id": 3,
+    "nama": "Pantai Batu Pinagut",
+    "lokasi": "Kuala, Kecamatan Kaidipang, Bolaang Mongondow Utara, Sulawesi Utara",
+    "latitude": 0.9202839,
+    "longitude": 123.2694366,
+    "potensi": ["Pantai dengan pasir putih dan batu karang, cocok untuk bersantai dan menikmati pemandangan laut."],
+    "gambar": "PantaiBatuPinagut.png",
+    "pemilik": "Dinas Pariwisata Bolmut",
+    "gmaps": "https://maps.app.goo.gl/8vPxpSrQXvnVSWqx6"
+  },
+  {
+    "id": 4,
+    "nama": "Danau Linow",
+    "lokasi": "Lahendong, Kecamatan Tomohon Selatan, Kota Tomohon, Sulawesi Utara",
+    "latitude": 1.2708329,
+    "longitude": 124.8263892,
+    "potensi": ["Danau vulkanik yang dapat berubah warna karena kandungan belerang, dikelilingi oleh pemandangan alam yang indah."],
+    "gambar": "danaulinow.webp",
+    "pemilik": "Dinas Pariwisata Tomohon Selatan",
+    "gmaps": "https://maps.app.goo.gl/M7VJYLBMBQueXWGV6"
+  },
+  {
+    "id": 5,
+    "nama": "Pulau Mahoro",
+    "lokasi": "Tapile, Kecamatan Siau Timur Selatan, Kabupaten Sitaro, Sulawesi Utara",
+    "latitude": 2.6497832,
+    "longitude": 125.4864136,
+    "potensi": ["Pulau tidak berpenghuni dengan pantai pasir putih dan terumbu karang, cocok untuk snorkeling dan menikmati alam."],
+    "gambar": "PulauMahoro.webp",
+    "pemilik": "Dinas Pariwisata Sitaro",
+    "gmaps": "https://maps.app.goo.gl/UYEntAnw549g4PWy5"
+  },
+  {
+    "id": 6,
+    "nama": "Pulau Ponteng",
+    "lokasi": "Rinondoran, Kecamatan Likupang, Kabupaten Minahasa Utara, Sulawesi Utara",
+    "latitude": 1.6033970,
+    "longitude": 125.1642182,
+    "potensi": ["Pulau kecil dengan keindahan bawah laut yang kaya, cocok untuk diving dan snorkeling."],
+    "gambar": "PulauPonteng.jpg",
+    "pemilik": "Dinas Pariwisata Minahasa Utara",
+    "gmaps": "https://maps.app.goo.gl/CV5saHiKY3XCyzvC8"
+  },
+  {
+    "id": 7,
+    "nama": "Pulau Siladen",
+    "lokasi": "Bunaken, Kecamatan Bunaken Kepulauan, Kota Manado, Sulawesi Utara",
+    "latitude": 1.6317853,
+    "longitude": 124.8025457,
+    "potensi": ["Pulau kecil dengan pantai berpasir putih dan terumbu karang indah, cocok untuk snorkeling dan diving."],
+    "gambar": "PulauSiladen.jpeg",
+    "pemilik": "Dinas Pariwisata Kota Manado",
+    "gmaps": "https://maps.app.goo.gl/hmYnvoHtUK94Jp5J9"
+  },
+  {
+    "id": 8,
+    "nama": "Air Terjun Kima Atas",
+    "lokasi": "Kima Atas, Kecamatan Mapanget, Kota Manado, Sulawesi Utara",
+    "latitude": 1.5567483,
+    "longitude": 124.8970479,
+    "potensi": ["Air terjun dengan ketinggian sekitar 8 meter, cocok untuk berenang dan menikmati alam sekitar."],
+    "gambar": "AirTerjunKimaAtas.jpg",
+    "pemilik": "Dinas Pariwisata Kota Manado",
+    "gmaps": "https://maps.app.goo.gl/4TMFh5PDJ3Ee7aHc9"
+  },
+  {
+    "id": 9,
+    "nama": "Pantai Batu Angus",
+    "lokasi": "Kasawari, Aertembaga, Kota Bitung, Sulawesi Utara",
+    "latitude": 1.5106800,
+    "longitude": 125.2452170,
+    "potensi": ["Pantai unik dengan batuan hitam hasil aktivitas vulkanik, cocok untuk fotografi dan eksplorasi."],
+    "gambar": "PantaiBatuAngus.webp",
+    "pemilik": "Dinas Pariwisata Kota Bitung",
+    "gmaps": "https://maps.app.goo.gl/mH2cCBTSAyqUFYey8"
+  },
+  {
+    "id": 10,
+    "nama": "Air Terjun Kali",
+    "lokasi": "Tinoor Satu, Kecamatan Tomohon Utara, Kota Tomohon, Sulawesi Utara",
+    "latitude": 1.3802154,
+    "longitude": 124.8360438,
+    "potensi": ["Pulau dengan keanekaragaman hayati laut, cocok untuk diving dan snorkeling, terkenal dengan spot muck diving."],
+    "gambar": "terjunkali.jpg",
+    "pemilik": "Dinas Pariwisata Kota Tomohon",
+    "gmaps": "https://maps.app.goo.gl/eVvSFAxZSpf2AWFP9"
+  }
+]

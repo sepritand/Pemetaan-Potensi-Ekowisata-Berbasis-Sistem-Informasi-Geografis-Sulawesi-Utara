@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pemetaan Potensi Ekowisata Sulawesi Utara</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- PENTING: Pastikan tinggi peta tidak 0 -->
+  <style>
+    #map {
+      height: 500px; /* Bisa sesuaikan tinggi sesuai desain */
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pemetaan Potensi Ekowisata</h1>
+    <p>Berbasis Sistem Informasi Geografis – Sulawesi Utara</p>
+  </header>
+
+  <nav>
+    <a href="index.html" class="active">Beranda</a>
+    <a href="about.html">Tentang</a>
+  </nav>
+
+  <div class="container">
+    <h2>Peta Lokasi Ekowisata</h2>
+    <div id="map"></div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 - Pemetaan Ekowisata Sulut | SIG Project</p>
+  </footer>
+
+  <!-- Leaflet JS -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Custom Scripts -->
+  <script src="js/map.js"></script>
+</body>
+</html>

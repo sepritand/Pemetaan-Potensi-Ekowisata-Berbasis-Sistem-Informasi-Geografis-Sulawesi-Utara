@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tentang Proyek SIG Ekowisata</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .anggota-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 1em;
+    }
+
+    .anggota-card {
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      padding: 10px;
+      text-align: center;
+      background-color: #f9f9f9;
+    }
+
+    .anggota-card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .anggota-card h4 {
+      margin: 5px 0;
+    }
+
+    .anggota-card p {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tentang Proyek Ini</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="about.html" class="active">Tentang</a>
+  </nav>
+
+  <div class="container">
+    <section>
+      <h2>Latar Belakang</h2>
+      <p>
+        Website ini merupakan hasil dari proyek tugas berjudul "Pemetaan Potensi Ekowisata Berbasis SIG di Sulawesi Utara". Proyek ini bertujuan untuk memetakan dan menyajikan informasi lokasi-lokasi ekowisata di Provinsi Sulawesi Utara secara interaktif menggunakan teknologi Sistem Informasi Geografis (SIG). Melalui peta digital yang tersedia, diharapkan masyarakat umum maupun pemerintah daerah dapat dengan mudah mengakses dan memanfaatkan data ekowisata ini untuk keperluan pengembangan dan promosi pariwisata berkelanjutan.
+      </p>
+    </section>
+
+    <section>
+      <h2>Teknologi yang Digunakan</h2>
+      <div style="padding-left: 1.5em;">
+        <ul style="list-style-type: disc;">
+          <li>HTML, CSS, dan JavaScript</li>
+          <li>Leaflet.js untuk tampilan peta</li>
+          <li>Data lokasi dalam format JSON</li>
+          <li>Visualisasi menggunakan XAMPP (Apache)</li>
+        </ul>
+      </div>
+    </section>    
+
+    <section>
+      <h2>Tim Pengembang</h2>
+      <p>
+        Website ini dikembangkan oleh Kelompok 7 sebagai bagian dari tugas mata kuliah Sistem Informasi Geografis Maritim. Proyek ini berjudul "Pemetaan Potensi Ekowisata Berbasis SIG di Sulawesi Utara", yang bertujuan untuk memetakan dan menyajikan informasi lokasi ekowisata secara interaktif menggunakan teknologi Sistem Informasi Geografis (SIG).
+      </p>
+      <div class="anggota-container">
+        <div class="anggota-card">
+          <img src="images/louisfoto.jpg" alt="Foto Anggota 1">
+          <h4>Louis Lumunon</h4>
+          <p>NIM: 221011060084</p>
+        </div>
+        <div class="anggota-card">
+          <img src="images/putrafoto.jpg" alt="Foto Anggota 2">
+          <h4>Sepri Tandira'pak</h4>
+          <p>NIM: 231011060048</p>
+        </div>
+        <div class="anggota-card">
+          <img src="images/syalomfoto.jpg" alt="Foto Anggota 3">
+          <h4>Syalom Sirita</h4>
+          <p>NIM: 231011060049</p>
+        </div>
+        <div class="anggota-card">
+          <img src="images/natanfoto.jpg" alt="Foto Anggota 4">
+          <h4>Jonathan Parengkuan</h4>
+          <p>NIM: 231011060053</p>
+        </div>
+      </div>
+    </section>
+
+    <a href="index.html" class="btn">← Kembali ke Beranda</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 - Pemetaan Ekowisata Sulut | SIG Project</p>
+  </footer>
+
+</body>
+</html>
